@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: black;
+    padding:15px 0px 15px 0px;
+  }
+  
+  .container {
+    width: 1200px;
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px 0px 25px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 60px; 
+    
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .logo span {
+    color: red;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 15px 0px 15px;
+    font-size: 18px;
+  }
+  
+  .signup-btn {
+    background-color: red; 
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+  }
+   
+
+    .containerBody {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffff; 
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+      border-radius: 10px;
+    }
+
+
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
+
+    #description {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
+
+    hr {
+      border: 1px solid #ccc;
+      margin: 15px 0;
+    }
+    .bottomBody {
+        display: flex;
+        justify-content: space-between;
+    } 
+
+    .image-icon {
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+
+    .butn {
+      background-color: #808080;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .upper-footer {
+    width: 75%;
+  }
+  
+  .partnership-text {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+  
+  .lower-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .contact-mail {
+    margin-right: 10px;
+    margin-left: 50px;
+  }
+  .terms {
+      margin-right: 70px;
+  }
+  .privacy {
+      margin-right: 10px;
+  }
+  .link-term {
+      text-decoration: none;
+      color: white
+  }
+
+#title{
+    height: 40px;
+}

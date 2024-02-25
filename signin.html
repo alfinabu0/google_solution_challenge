@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In Page</title>
+  <link rel="stylesheet" href="signin1.css">
+</head>
+<body>
+
+  <div class="left-section">
+    <h1>Kreativ<span style="color: red;">Sphere</span></h1>
+    <p>Your Nexus for Boundless Innovation</p>
+  </div>
+
+  <div class="right-section">
+    <h2>SIGN IN</h2>
+    <div class="form-group">
+      <label class="form-group label" for="email">Email</label>
+      <input class="form-group input" type="text" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label class="form-group label" for="password">Password</label>
+      <input class="form-group input" type="password" id="password" name="password" required>
+    </div>
+    <button class="login-btn">LOG IN</button>
+    <p class="signup-text">Not already a User? <a href="./signup.html" class="signup-link">Sign Up</a></p>
+  </div>
+  <script src="./js/auth.js" type="module"></script>
+  <script type="module">
+    import { signIn } from './js/auth.js';
+    document.getElementsByClassName('login-btn')[0].onclick = signIn;
+  </script>
+</body>
+</html>

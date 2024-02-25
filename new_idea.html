@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newidea</title>
+    <link rel="stylesheet" href="./new_idea.css">
+    
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="logo">
+          <img src="logo_kreativSphere.png" alt="KreativSphere Logo">
+          <h1>Kreativ<span>Sphere</span></h1>
+        </div>
+        <nav>
+        <a href="./index.html"><b>HOME</b></a>
+        <a href="./about.html"><b>ABOUT</b></a>
+        <a href="./contact.html"><b>CONTACT</b></a>
+        <a href="./signup.html" class="signup-btn"><b>SIGN UP</b></a>
+        </nav>
+      </div>
+  </header>
+
+  <div class="containerBody">
+    <input type="text" placeholder="Title" id="title">
+    <hr>
+    <textarea id="description" name="description" rows="20" placeholder="Description"></textarea>
+    <div class="bottomBody">
+      <div class="image-icon">&#128247;</div>
+      <button class="butn" type="submit">Submit</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="upper-footer">
+      <p class="partnership-text">Seeking Partnership for Creative Ventures?</p>
+    </div>
+    <div class="lower-footer">
+      <div class="contact-mail">
+        <span class="icon">&#9993;</span> info@example.com
+      </div>
+      <div>
+        <span class="terms"><a class="link-term" href="#">Terms and Conditions</a></span>
+        <span class="privacy"><a class="link-term" href="#">Privacy Policy</a></span>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="./js/new_idea.js" type="module"></script>
+<script type="module">
+    import {saveIdea} from './js/new_idea.js';
+    document.querySelector('.butn').addEventListener('click', saveIdea);
+</script>
+
+</html>

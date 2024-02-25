@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: gainsboro;
+    text-align: center;
+  }
+  
+  header {
+    background-color: black;
+    padding:15px 0px 15px 0px;
+  }
+  
+  .container {
+    width: 1200px;
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px 0px 25px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 60px; 
+    
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .logo span {
+    color: red;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 15px 0px 15px;
+    font-size: 18px;
+  }
+  
+  .signup-btn {
+    background-color: red; 
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .search-bar {
+    margin: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: sticky;
+    margin-left: 50px;
+  }
+
+  .search-input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+  }
+
+  .search-icon {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .filter-btn {
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 111px;
+    right: 50px;
+  }
+
+  .filter-btn img {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .box-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .box {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 10px;
+    text-align: left;
+    margin: 0 10px;
+    box-shadow: 3px 3px 3px black;
+  }
+
+  .box h2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .hashtags {
+    font-size: 14px;
+    font-weight: normal;
+    max-width: 60%;
+    margin-bottom: 10px;
+  }
+
+  .rating-text {
+    font-size: 12px;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .upper-footer {
+    width: 75%;
+  }
+  
+  .partnership-text {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+  
+  .lower-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .contact-mail {
+    margin-right: 10px;
+    margin-left: 50px;
+  }
+  .terms {
+      margin-right: 70px;
+  }
+  .privacy {
+      margin-right: 10px;
+  }
+  .link-term {
+      text-decoration: none;
+      color: white;
+  }
+  

@@ -13,3 +13,5 @@ Imagine a world where ideas flow seamlessly, where creators and builders unite t
 The web app is hosted at: [KreativSphere Web App](https://kreativsphere-85feb.web.app/)
 
 Alternatively, it can be run by opening `index.html` file from the project root folder and then signing in.
+
+The prototype(design) of the website is at : [KreativSphere](https://www.figma.com/file/iOqPNyXZWn3Lydd46fCzmF/KreativSphere?type=design&node-id=0%3A1&mode=design&t=pbeFj0lExDtKp4VD-1) 
